@@ -1,0 +1,25 @@
+{
+  "name": "mapbox-test",
+  "description": "",
+  "main": "dist/iis-map/init.js",
+  "authors": [
+    "Lipatov <maximmalyshyn@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.3.0",
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3",
+    "angular-cookies": "^1.5.7",
+    "ramda": "^0.21.0"
+  }
+}

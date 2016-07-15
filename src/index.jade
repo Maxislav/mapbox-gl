@@ -1,0 +1,21 @@
+doctype html
+html(lang='en', ng-app='iis-map')
+    head
+        meta(charset='UTF-8')
+        title MapBoxGl
+
+        //- inject:css
+        link(data-css-type='custom-theme', rel='stylesheet' href='lib/mapboxgl/mapbox-gl.css')
+        //- endinject
+
+        //- inject:js
+        script(src="lib/mapboxgl/mapbox-gl.js")
+        script(src="bower_components/angular/angular.js")
+        script(src="bower_components/angular-ui-router/release/angular-ui-router.js")
+        script(src="bower_components/ramda/dist/ramda.min.js")
+        script(src="dist/iis-map/init.js")
+        script(src="dist/iis-map/directive/directive-map.js")
+        //- endinject
+
+    body
+        .map-gl(style='width: 800px; height: 600px;background: gray; margin: 0 auto')
