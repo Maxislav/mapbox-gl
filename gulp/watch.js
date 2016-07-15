@@ -10,7 +10,7 @@ const sources = {
         './src/iis-awp/templates-jade/**/*.jade'
     ],
     stylus: [
-        './src/iis-awp/stylus/*.styl'
+        './src/iis-map/style/**/*.styl'
     ],
     babel: [
       './src/**/*.js'

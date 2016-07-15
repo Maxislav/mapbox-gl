@@ -5,16 +5,19 @@ html(lang='en', ng-app='iis-map')
         title MapBoxGl
 
         //- inject:css
+        link(data-css-type='custom-theme', rel='stylesheet' href='dist/iis-map/style/marker.css')
         link(data-css-type='custom-theme', rel='stylesheet' href='lib/mapboxgl/mapbox-gl.css')
         //- endinject
 
         //- inject:js
         script(src="lib/mapboxgl/mapbox-gl.js")
-        script(src="bower_components/angular/angular.js")
-        script(src="bower_components/angular-ui-router/release/angular-ui-router.js")
+        script(src="bower_components/angular/angular.min.js")
+        script(src="bower_components/angular-ui-router/release/angular-ui-router.min.js")
         script(src="bower_components/ramda/dist/ramda.min.js")
         script(src="dist/iis-map/init.js")
         script(src="dist/iis-map/directive/directive-map.js")
+        script(src="dist/iis-map/service/service-create-html-marker.js")
+        script(src="dist/iis-map/service/service-mapgl.js")
         //- endinject
 
     body

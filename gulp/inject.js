@@ -16,8 +16,8 @@ const srcDev = [
      * JS LIBS
      */
     'lib/**/*.js',
-    'bower_components/angular/angular.js',
-    'bower_components/angular-ui-router/release/angular-ui-router.js',
+    'bower_components/angular/angular.min.js',
+    'bower_components/angular-ui-router/release/angular-ui-router.min.js',
     'bower_components/ramda/dist/ramda.min.js',
 
     /**
