@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="iis-map">
+  <head>
+    <meta charset="UTF-8">
+    <title>MapBoxGl</title>
+    <link data-css-type="custom-theme" rel="stylesheet" href="dist/iis-map/style/marker.css">
+    <link data-css-type="custom-theme" rel="stylesheet" href="lib/mapboxgl/mapbox-gl.css">
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular/angular-ui-router.min.js"></script>
+    <script src="lib/mapboxgl/mapbox-gl.js"></script>
+    <script src="lib/ramda/ramda.min.js"></script>
+    <script src="dist/iis-map/init.js"></script>
+    <script src="dist/iis-map/directive/directive-map.js"></script>
+    <script src="dist/iis-map/service/service-create-html-marker.js"></script>
+    <script src="dist/iis-map/service/service-mapgl.js"></script>
+  </head>
+  <body>
+    <div style="width: 800px; height: 600px;background: gray; margin: 0 auto" class="map-gl"></div>
+  </body>
+</html>
