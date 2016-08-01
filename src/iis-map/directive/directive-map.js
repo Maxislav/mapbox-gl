@@ -34,6 +34,7 @@
             center: [30.40, 50.40],
             zoom: 11,
             style: 'mapbox://styles/mapbox/dark-v9'
+            //style: 'myCustomStyle.json'
           });
 
           var popup = new mapboxgl.Popup(
@@ -48,7 +49,7 @@
           var div  =factoryMarkerHtml.getHtmlElement({
             width: 40,
             height: 40,
-            content: 'Мff'
+            content: 'Hello'
           });
           div.className = 'marker-html';
 
