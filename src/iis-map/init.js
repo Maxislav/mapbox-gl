@@ -6,6 +6,4 @@
 
   angular
     .module('iis-map', ['ui.router'])
-
-
 }());

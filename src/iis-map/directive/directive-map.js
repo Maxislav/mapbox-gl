@@ -14,6 +14,19 @@
         $http.get('maptoken.json').then(function (d) {
           initMap(d.data.token)
         });
+
+        var w = window,
+          d = document,
+          e = d.documentElement,
+          g = d.getElementsByTagName('body')[0],
+          x = w.innerWidth || e.clientWidth || g.clientWidth,
+          y = w.innerHeight|| e.clientHeight|| g.clientHeight;
+        
+
+        el[0].style.width = x +'px';
+        el[0].style.height = y +'px';
+
+
         function initMap(token) {
           mapboxgl.accessToken = token;
           var map = new mapboxgl.Map({
