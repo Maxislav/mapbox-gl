@@ -32,8 +32,8 @@
             container: el[0],
             center: [30.40, 50.40],
             zoom: 11,
-            style: 'mapbox://styles/mapbox/dark-v9'
-            //style: 'myCustomStyle.json'
+            //style: 'mapbox://styles/mapbox/dark-v9'
+            style: 'myCustomStyle.json'
           });
 
           var popup = new mapboxgl.Popup({
